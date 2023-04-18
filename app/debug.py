@@ -7,9 +7,9 @@ from sqlalchemy.orm import sessionmaker
 
 if __name__ == '__main__':
 
-  engine = create_engine('sqlite:///grocery_stores.db')
+  engine = create_engine('sqlite:///development.db')
   session = sessionmaker(bind=engine)()
   print("Session Created...")
-  
+
 
   set_trace()
